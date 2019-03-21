@@ -1,4 +1,4 @@
-# Image-recognition-with-python
+# Image-moderation-with-python
 this is a computer vision software that let you moderate images base on drug, alcohol, nudity, weapons etc 
 Steps to using the image moderation application:
 Install flask using the instructions below
