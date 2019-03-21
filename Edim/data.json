@@ -1,0 +1,93 @@
+{
+     "status": "success",
+     "request": {
+          "id": "req_4caK6RFZV8KE3pMrWiNyQ",
+          "timestamp": 1543235174.727,
+          "operations": 4
+     },
+     "weapon": 0.775,
+     "alcohol": 0.001,
+     "drugs": 0,
+     "nudity": {
+          "raw": 0.01,
+          "safe": 0.98,
+          "partial": 0.01
+     },
+     "faces": [
+          {
+               "x1": 0.3891,
+               "y1": 0.0694,
+               "x2": 0.4563,
+               "y2": 0.2194,
+               "features": {
+                    "left_eye": {
+                         "x": 0.4406,
+                         "y": 0.1278
+                    },
+                    "right_eye": {
+                         "x": 0.4109,
+                         "y": 0.125
+                    },
+                    "nose_tip": {
+                         "x": 0.4266,
+                         "y": 0.1556
+                    },
+                    "left_mouth_corner": {
+                         "x": 0.4375,
+                         "y": 0.1861
+                    },
+                    "right_mouth_corner": {
+                         "x": 0.4109,
+                         "y": 0.1833
+                    }
+               },
+               "attributes": {
+                    "female": 0.01,
+                    "male": 0.99,
+                    "minor": 0.03,
+                    "sunglasses": 0.99
+               }
+          },
+          {
+               "x1": 0.1469,
+               "y1": 0.0778,
+               "x2": 0.2188,
+               "y2": 0.2361,
+               "features": {
+                    "left_eye": {
+                         "x": 0.2016,
+                         "y": 0.1361
+                    },
+                    "right_eye": {
+                         "x": 0.1688,
+                         "y": 0.1444
+                    },
+                    "nose_tip": {
+                         "x": 0.1891,
+                         "y": 0.1778
+                    },
+                    "left_mouth_corner": {
+                         "x": 0.2031,
+                         "y": 0.2
+                    },
+                    "right_mouth_corner": {
+                         "x": 0.1781,
+                         "y": 0.2083
+                    }
+               },
+               "attributes": {
+                    "female": 0.17,
+                    "male": 0.83,
+                    "minor": 0.02,
+                    "sunglasses": 0.99
+               }
+          }
+     ],
+     "offensive": {
+          "prob": 0.01
+     },
+     "media": {
+          "id": "med_4caKV3F2s2SJzOtdljtdk",
+          "uri": "Armed-Police-Outside-Building-Rifles-Guns.jpg"
+     }
+}

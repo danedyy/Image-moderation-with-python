@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <form enctype=multipart/form-data action="{{ url_for('detect') }}" method="POST">
+        <div class="container">
+            <div class="upload-box">
+                <div class="icon-box">
+                    <img id="image_view" src="{{ url_for('static', filename='image/if_user.png') }}" />
+                </div>
+                <div class="box">
+                    <input type="file" name="imagefile" id="file-2" onchange="readURL(this);" class="inputfile inputfile-2"
+                        accept="image/*" />
+                    <label for="file-2"><span>Choose an image&hellip;</span></label>
+                </div>
+                <div class="button-box">
+                    <button type="submit" onclick="on();">Check image</button>
+                </div>
+                <input type="input" onclick="ok()" value="Check" />
+            </div>
+        </div>
+    </form>
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+    </script>
+    <script src="{{ url_for('static', filename='js/myjs.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="upload-box">
+            <div class="title-box">
+                <h4>Scan Results</h4>
+            </div>
+            <table class="table table-bordered">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>Findings</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Nudity</td>
+                        <td>{{ nude }}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Alcohol</td>
+                        <td>{{ alcohol }}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Weapons</td>
+                        <td>{{ weapons }}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Drugs</td>
+                        <td>{{ drug }}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Offensive Content</td>
+                        <td>{{ offensive }}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Face</td>
+                        <td>{{ face }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

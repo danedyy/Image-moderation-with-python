@@ -1,0 +1,184 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #4285F4;
+    border: 0%;
+    width: 100%;
+    height: 40%;
+}
+
+.upload-box {
+    border: 0px;
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px rgb(148, 151, 151);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.icon-box {
+    background-color: white;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+    border: 2px solid rgb(122, 120, 120);
+    border-radius: 20px;
+    margin-bottom: 10%;
+    box-shadow: 0px 3px 5px rgb(148, 151, 151);
+    width: 250px;
+    height: 200px;
+    height: auto;
+
+}
+
+.icon-box img:hover {
+    width: 101%;
+}
+
+.icon-box img {
+    max-width: 100%;
+    height: 200px;
+    /* margin: 0 auto;   */
+}
+
+.button-box button {
+
+    color: white;
+    background-color: #4285F4;
+    border: 0px;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    max-width: 80%;
+    font-size: 3.25vmin;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    box-shadow: 0px 3px 5px rgb(148, 151, 151);
+
+}
+
+button:hover {
+    background-color: rgb(39, 101, 201);
+    width: 51%;
+
+}
+
+
+
+
+/* style 2 */
+.js .inputfile {
+    width: 0.08px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    max-width: 80%;
+    font-size: 3.25vmin;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile+label {
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+.inputfile:focus+label,
+.inputfile.has-focus+label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile+label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile+label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+
+.inputfile-2+label {
+    color: #4285F4;
+    border: 2px solid currentColor;
+    box-shadow: 0px 3px 5px rgba(148, 151, 151, 0.637);
+    margin-bottom: 10px;
+}
+
+.inputfile-2:focus+label,
+.inputfile-2.has-focus+label,
+.inputfile-2+label:hover {
+    color: rgb(39, 101, 201);
+    width: 37%;
+}
+
+
+/* div overlay */
+
+#overlay {
+    background: url(../image/Magnify-3.2s-200px.gif) no-repeat center center;
+    /* width:32px;height:32px; */
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(103, 138, 158, 0.39);
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* end overlay */
+
+/* Styling complete.html */
+.title-box {
+    background-color: #4285F4;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 100%;
+    height: 10%;
+}
+
